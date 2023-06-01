@@ -1,12 +1,13 @@
 // Your web app's Firebase configuration
-var firebaseConfig = {
+const firebaseConfig = {
   apiKey: "AIzaSyD1HvaG67v_5Se4QyPUYMx1VpHmuJHf-QY",
   authDomain: "jilachat-a89cd.firebaseapp.com",
   databaseURL: "https://jilachat-a89cd-default-rtdb.firebaseio.com",
   projectId: "jilachat-a89cd",
   storageBucket: "jilachat-a89cd.appspot.com",
   messagingSenderId: "539578938852",
-  appId: "1:539578938852:web:cb41b9acee871d50d3c3f1"
+  appId: "1:539578938852:web:cb41b9acee871d50d3c3f1",
+  measurementId: "G-PFBDB6EPZS"
 };
 firebase.initializeApp(firebaseConfig);
 
